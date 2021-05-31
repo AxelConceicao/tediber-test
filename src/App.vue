@@ -1,21 +1,24 @@
 <template>
-  <div>
+  <div id="app">
     <Navbar />
-    <OrderTracking />
+    <router-view class="tb-wrap p-4" />
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar'
-import OrderTracking from './components/OrderTracking'
+import Navbar from '@/components/Navbar'
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
     Navbar,
-    OrderTracking,
   },
 }
 </script>
 
-<style></style>
+<style>
+.tb-wrap {
+  max-width: 1400px;
+  margin: 10px auto;
+}
+</style>

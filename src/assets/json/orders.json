@@ -1,0 +1,43 @@
+[
+  {
+    "id": 405560003,
+    "ordered_date": 1556730752000,
+    "shipped_date": 1556903552000,
+    "estimed_date": 1557352800000,
+    "delivery_method": "livraison standard en point relais",
+    "order_status": {
+      "packed": true,
+      "shipped": true,
+      "in_transit": false,
+      "delivered": false
+    },
+    "products": [
+      {
+        "id": 1,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "quantity": 2
+      },
+      {
+        "id": 3,
+        "quantity": 1
+      }
+    ],
+    "shipping_address": {
+      "address1": "POINT RELAIS",
+      "address2": "57 rue Jean Pierre Timbaud",
+      "city": "PARIS",
+      "zip_code": 75011,
+      "country": "France"
+    },
+    "shipping_contact": {
+      "firstname": "Shannon",
+      "lastname": "Honniball",
+      "mobile_number": "0664262272"
+    },
+    "payment_method": "VISA",
+    "shipping_cost": 0
+  }
+]

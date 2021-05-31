@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "L'incroyable matelas Tediber",
+    "price": 750.0,
+    "width": 160.0,
+    "height": 200.0,
+    "thumbnail": "matelas.jpg"
+  },
+  {
+    "id": 2,
+    "name": "L'incroyable oreiller Tediber",
+    "price": 85.0,
+    "width": 60.0,
+    "height": 60.0,
+    "thumbnail": "oreiller.jpg"
+  },
+  {
+    "id": 3,
+    "name": "L'incroyable couette Tediber",
+    "price": 210.0,
+    "width": 240.0,
+    "height": 220.0,
+    "thumbnail": "couette.jpg"
+  }
+]

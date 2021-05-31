@@ -1,7 +1,7 @@
 <template>
   <div class="is-flex is-align-items-center is-justify-content-space-between">
     <div class="tb-border is-flex-grow-1"></div>
-    <div class="tb-title mx-6 is-flex is-align-items-center">
+    <div class="tb-title is-flex is-align-items-center is-flex-direction-column">
       <h1>{{ title }}</h1>
       <img class="tb-zigzag" src="@/assets/img/zigzag.svg" alt="" />
     </div>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'header',
+  name: 'splitter',
 
   props: {
     title: String,
@@ -27,11 +27,13 @@ export default {
 .tb-border {
   height: 2px;
   border-top: 2px solid rgba(40, 45, 89, 0.75);
-  margin-bottom: 12px;
+  margin-bottom: 1rem;
+  min-width: 50px;
 }
 
 .tb-title {
-  flex-direction: column;
+  margin: auto 5rem;
+  text-align: center;
 }
 
 .tb-title h1 {
@@ -43,5 +45,11 @@ export default {
 
 .tb-zigzag {
   height: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .tb-title {
+    margin: auto 1rem;
+  }
 }
 </style>
