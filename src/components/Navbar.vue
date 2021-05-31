@@ -49,14 +49,12 @@
 </template>
 
 <script>
-import { ref } from 'vue'
-
 export default {
   name: 'Navbar',
 
-  setup() {
+  data() {
     return {
-      isProductListOpen: ref(false),
+      isProductListOpen: false,
       productList: ['Catégorie A', 'Catégorie B', 'Catégorie C'],
     }
   },

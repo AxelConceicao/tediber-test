@@ -1,4 +1,4 @@
-# tediber
+# tediber-test
 
 ## Project setup
 ```
