@@ -12,6 +12,11 @@ body {
   src: url('~@/assets/fonts/GillSansStdLight.otf');
 }
 
+@font-face {
+  font-family: 'Gill Sans Std';
+  src: url('~@/assets/fonts/GillSansStd.otf');
+}
+
 /* Mes helpers personnels (similaire à Bulma) */
 .is-flex {
   display: flex;

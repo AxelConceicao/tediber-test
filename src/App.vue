@@ -1,17 +1,19 @@
 <template>
   <div>
     <Navbar />
-    <h1>Test de la police</h1>
+    <OrderTracking />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
+import OrderTracking from './components/OrderTracking'
 
 export default {
   name: 'App',
   components: {
     Navbar,
+    OrderTracking,
   },
 }
 </script>
