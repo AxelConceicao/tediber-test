@@ -107,6 +107,7 @@ export default {
   color: #282d59;
   font-size: 20px;
   width: 600px;
+  transition: all 0.25s ease;
 }
 
 .tb-ordercard:hover .td-orderid {
@@ -123,7 +124,7 @@ a:-webkit-any-link {
 
 .tb-ordercard:hover {
   transform: translateY(-20px);
-  transition: all 0.15s ease;
+  transition: all 0.25s ease;
 }
 
 @media screen and (max-width: 800px) {
